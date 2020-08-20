@@ -1,0 +1,170 @@
+.carousel-inner img{
+    width: 100%;    
+}
+.latestforsale{
+    padding-top: 2%;
+}
+.latestforsale .card{
+    margin-bottom: 3%;
+}
+.latestforsale h4{
+    float: left;
+}
+.latestforsale .btn{
+    float: right;
+}
+.latestforsale .carousel-inner{
+    width:auto;
+}
+.latestforsale .card-img-overlay span{
+    float: left !important;
+}
+.latestforsale .card-body .rating .checked{
+    color: orange;
+}
+.latestforsale .labelandbutton a{
+    float: right;
+}
+
+.latestforrent{
+    margin-top: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: lightgray;
+}
+.latestforrent .card{
+    margin-bottom: 3%;
+}
+.latestforsale h4{
+    float: left;
+}
+.latestforrent .btn{
+    float: right;
+}
+.latestforrent .carousel-inner{
+    width:auto;
+}
+.latestforrent .card-img-overlay span{
+    float: left !important;
+}
+.latestforrent .card-body .rating .checked{
+    color: orange;
+}
+.latestforrent .labelandbutton a{
+    float: right;
+}
+.ourlocation .smallimage img{
+    width: 100%;
+}
+.ourlocation .largeimage img{
+    width:100%;
+}
+.ourlocation img{
+    filter: blur(0.9px);
+}
+.ourlocation{
+    padding-top: 3%;
+}
+.bestpropertie{
+    margin-top: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: lightgray;
+}
+.bestpropertie .card{
+    margin-bottom: 3%;
+}
+.bestpropertie .card-img-overlay .right{
+    float: right;
+}
+.bestpropertie .card-body .labelandbutton a{
+    float: right;
+}
+.bestpropertie .checked{
+    color: orange;
+}
+.agents{
+    margin-top: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    
+}
+.agents .card{
+    margin-bottom: 5%;
+    
+}
+.agents .card-img-top img{
+    width: 100%;
+    height: 50%;
+}
+.agents .card-body{
+    text-align: center;
+}
+footer{
+    margin-top: 2%;
+    padding-top: 2%;
+}
+.footer .socialmedia ul a i{
+padding-left: 5%;
+}
+.copyright{
+    width: 100%;
+    background-color: #222831;
+    
+}
+.copyright p{
+    padding: 0% 5%;
+    padding-top: 2%;
+}
+.copyright i{
+    padding-top: 3%;
+    padding-left: 5%;
+  
+}
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+}
+
+@media screen and (max-width: 576px){
+    
+    .ourlocation .smallimage h3{
+        font-size: 12px;
+    }
+    .ourlocation .smallimage p{
+        font-size: 8px;
+    }
+    .ourlocation .largeimage h3{
+        font-size: 12px;
+    }
+    .ourlocation .smallimage p{
+        font-size: 8px;
+    }
+    .carousel-slide{
+        height: 50vh;
+    }
+    .carousel-slide img{
+        height: 50vh;
+    }
+    .bestpropertie .card-img-top{
+        height: 25vh;
+    }
+    .bestpropertie .card-body{
+        height: 30vh;
+    }
+    .bestpropertie .card-body h3{
+        font-size: 75%;
+    }
+    .bestpropertie .card-body p{
+        font-size: 75%;
+    }
+    .bestpropertie .card-body h4{
+        font-size: 75%;
+    }
+    
+    .bestpropertie .card-body h6{
+        font-size: 75%;
+    }
+}

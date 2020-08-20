@@ -1,0 +1,777 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Houzez</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </head>
+  <body>
+      
+    <nav class="navbar navbar-expand-lg bg-light navbar-light " id="home">
+        <a class="navbar-brand" href="#"><h1>Houzez</h1></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse font-weight-bold" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+             <!-- Dropdown -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Services</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#latestforsale">latest For Sale</a>
+                <a class="dropdown-item" href="#latestforrent">Latest For Rent</a>
+                <a class="dropdown-item" href="#bestpropertyvalues">Best Property values</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blogs">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#aboutus">About Us</a>
+            </li>  
+          </ul>
+          <div class="btn" style="margin-left: auto; padding: 5px;">
+            
+            <button class="btn btn-lg" type="button">Sign in / Register</button>
+            <button class="btn btn-outline-dark btn-lg" type="button">Create Listing</button>
+          </div>
+        </div>  
+      </nav>
+      <!-----------------------------------------------------slider----------------------------------------->
+      
+<div id="demo" class="carousel-slide" data-ride="carousel" >
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+      <li data-target="#demo" data-slide-to="3"></li>
+      <li data-target="#demo" data-slide-to="4"></li>
+    </ul>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./slider1.jpg" alt="Los Angeles" width="1100" height="500">
+        <div class="carousel-caption">
+          <h3>Los Angeles</h3>
+          <p>We had such a great time in LA!</p>
+        </div>   
+      </div>
+      <div class="carousel-item">
+        <img src="./slider2.jpg" alt="Chicago" width="1100" height="500">
+        <div class="carousel-caption">
+          <h3>Chicago</h3>
+          <p>Thank you, Chicago!</p>
+        </div>   
+      </div>
+      <div class="carousel-item">
+        <img src="./slider3.jpg" alt="New York" width="1100" height="500">
+        <div class="carousel-caption">
+          <h3>New York</h3>
+          <p>We love the Big Apple!</p>
+        </div>   
+      </div>
+      <div class="carousel-item">
+        <img src="./slider4.jpg" alt="New York" width="1100" height="500">
+        <div class="carousel-caption">
+          <h3>New York</h3>
+          <p>We love the Big Apple!</p>
+        </div>   
+      </div>
+      <div class="carousel-item">
+        <img src="./slider5.jpg" alt="New York" width="1100" height="500">
+        <div class="carousel-caption">
+          <h3>New York</h3>
+          <p>We love the Big Apple!</p>
+        </div>   
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+</div>
+    <!-------------------------------------------latest for sale start-------------------------------------------------->
+<div class="latestforsale" id="latestforsale">    
+  <div class="container shadow">
+    <div class="row">
+      <div class="col-xl-12 col-lg-12 col-md-12 col-sm-6 col-6">
+          <h4>Latest for Sale</h4>
+      </div>   
+      <div class="col-xl-12 col-lg-12 col-md-12 col-sm-6 col-6"> 
+          <ul class="pagination justify-content-end">
+            <li class="page-item"><a class="page-link" href="javascript:void(0);">Pre</a></li>
+            <li class="page-item active"><a class="page-link" href="javascript:void(0);">1</a></li>
+            <li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li>
+            <li class="page-item"><a class="page-link" href="javascript:void(0);">Next</a></li>
+          </ul>
+      </div>
+    </div>
+    <!------------------------------------------------card------------------------------------------------------>
+      <div class="row">
+                    <!-----------------------------1 card start-------------------------------------------------->
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                      <div class="card shadow" style="width:100%" data-aos="fade-right">
+                        <div class="card-img-top">
+                              <div id="carddemo" class="carousel slide" data-ride="carousel">
+                              <!-- The slideshow -->
+                                  <div class="carousel-inner">
+                                      <div class="carousel-item active">
+                                          <img src="./slider2.jpg" alt="Los Angeles">
+                                      </div>
+                                      <div class="carousel-item">
+                                          <img src="./sale2.jfif" alt="Chicago">
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <!--card overlay text-->
+                          <div class="card-img-overlay">
+                            <span class="left"><a href="#" class="btn btn-primary btn-sm">FEATURED</a></span>
+                            <div class="right"><a href="#" class="btn btn-dark btn-sm">FOR SALE</a></div>
+                            
+                          </div>
+                          <div class="card-body">
+                              <div class="rating">
+                                  <span class="fas fa-star checked"></span>
+                                  <span class="fas fa-star checked"></span>
+                                  <span class="fas fa-star checked"></span>
+                                  <span class="far fa-star"></span>
+                                  <span class="far fa-star"></span>
+                                  27 Ratings
+                              </div>
+                                  <h3 class="card-title text-primary">47/B DHA</h3>
+                                  <p class="card-text font-weight-bold">4 Bedroom 3 washroom</p>
+                              <div class="labelandbutton">
+                                  <h6>Fully decorated and well Design</h6>
+                                  <h6>Single family House</h6>
+                                  <h4>$6000</h4>
+                                  <a href="#" class="btn btn-primary">Detail</a>
+                                  <br><br>
+                                  <a href="tel:+903057719490">+923057719490</a>
+                              </div>          
+                          </div>
+                      </div>
+                    </div>
+                    <!------------------------------------1 card end-------------------------------------------->
+                    <!------------------------------------2 card start----------------------------------------->
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                      <div class="card shadow" style="width:100%" data-aos="fade-right">
+                        <div class="card-img-top">
+                              <div id="carddemo" class="carousel slide" data-ride="carousel">
+                              <!-- The slideshow -->
+                                  <div class="carousel-inner">
+                                      <div class="carousel-item active">
+                                          <img src="./slider2.jpg" alt="Los Angeles">
+                                      </div>
+                                      <div class="carousel-item">
+                                          <img src="./sale2.jfif" alt="Chicago">
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <!--card overlay text-->
+                          <div class="card-img-overlay">
+                            <span class="left"><a href="#" class="btn btn-primary btn-sm">FEATURED</a></span>
+                            <div class="right"><a href="#" class="btn btn-dark btn-sm">FOR SALE</a></div>
+                            
+                          </div>
+                          <div class="card-body">
+                              <div class="rating">
+                                  <span class="fas fa-star checked"></span>
+                                  <span class="fas fa-star checked"></span>
+                                  <span class="fas fa-star checked"></span>
+                                  <span class="fas fa-star checked"></span>
+                                  <span class="far fa-star"></span>
+                                  57 Ratings
+                              </div>
+                                  <h3 class="card-title text-primary">Bahira town</h3>
+                                  <p class="card-text font-weight-bold">7 Bedroom 3 washroom</p>
+                              <div class="labelandbutton">
+                                  <h6>Fully decorated and well Design</h6>
+                                  <h6>Single family House</h6>
+                                  <h4>$12000</h4>
+                                  <a href="#" class="btn btn-primary">Detail</a>
+                                  <br><br>
+                                  <a href="tel:+903057719490">+923057719490</a>
+                              </div>          
+                          </div>
+                      </div>
+                    </div>
+                    <!------------------------------------2 card end-------------------------------------------->
+                    <!------------------------------------3 card start----------------------------------------->
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                      <div class="card shadow" style="width:100%" data-aos="fade-right">
+                        <div class="card-img-top">
+                              <div id="carddemo" class="carousel slide" data-ride="carousel">
+                              <!-- The slideshow -->
+                                  <div class="carousel-inner">
+                                      <div class="carousel-item active">
+                                          <img src="./slider2.jpg" alt="Los Angeles">
+                                      </div>
+                                      <div class="carousel-item">
+                                          <img src="./sale2.jfif" alt="Chicago">
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <!--card overlay text-->
+                          <div class="card-img-overlay">
+                            <span class="left"><a href="#" class="btn btn-primary btn-sm">FEATURED</a></span>
+                            <div class="right"><a href="#" class="btn btn-dark btn-sm">FOR SALE</a></div>
+                            
+                          </div>
+                          <div class="card-body">
+                              <div class="rating">
+                                  <span class="fas fa-star checked"></span>
+                                  <span class="fas fa-star checked"></span>
+                                  <span class="far fa-star"></span>
+                                  <span class="far fa-star"></span>
+                                  <span class="far fa-star"></span>
+                                  9 Ratings
+                              </div>
+                                  <h3 class="card-title text-primary">Askari Phase 1</h3>
+                                  <p class="card-text font-weight-bold">5 Bedroom 3 washroom</p>
+                              <div class="labelandbutton">
+                                  <h6>Fully decorated and well Design</h6>
+                                  <h6>Single family House</h6>
+                                  <h4>$9000</h4>
+                                  <a href="#" class="btn btn-primary">Detail</a>
+                                  <br><br>
+                                  <a href="tel:+903057719490">+923057719490</a>
+                              </div>          
+                          </div>
+                      </div>
+                    </div>
+                    <!------------------------------------3 card end-------------------------------------------->
+      </div>  
+  </div>
+</div>    
+<!-------------------------------------------latest for sale end-------------------------------------------------->
+<!-------------------------------------------latest for rent start-------------------------------------------------->
+<div class="latestforrent" id="latestforrent">    
+  <div class="container shadow">
+    <div class="row">
+      <div class="col-xl-12 col-lg-12 col-md-12 col-sm-6 col-6">
+          <h4>Latest for Rent</h4>
+      </div>
+      <div class="col-xl-12 col-lg-12 col-md-12 col-sm-6 col-6">
+          <ul class="pagination justify-content-end">
+            <li class="page-item"><a class="page-link" href="javascript:void(0);">Pre</a></li>
+            <li class="page-item active"><a class="page-link" href="javascript:void(0);">1</a></li>
+            <li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li>
+            <li class="page-item"><a class="page-link" href="javascript:void(0);">Next</a></li>
+          </ul>
+        </div>
+    </div>
+    <!------------------------------------------------card------------------------------------------------------>
+      <div class="row">
+                    <!-----------------------------1 card start-------------------------------------------------->
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                      <div class="card shadow" style="width:100%" data-aos="fade-left">
+                        <div class="card-img-top">
+                              <div id="carddemo" class="carousel slide" data-ride="carousel">
+                              <!-- The slideshow -->
+                                  <div class="carousel-inner">
+                                      <div class="carousel-item active">
+                                          <img src="./rent1.jpg" alt="Los Angeles">
+                                      </div>
+                                      <div class="carousel-item">
+                                          <img src="./rent2.jpg" alt="Chicago">
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <!--card overlay text-->
+                          <div class="card-img-overlay">
+                            <span class="left"><a href="#" class="btn btn-primary btn-sm">FEATURED</a></span>
+                            <div class="right"><a href="#" class="btn btn-dark btn-sm">FOR RENT</a></div>
+                            
+                          </div>
+                          <div class="card-body">
+                              <div class="rating">
+                                  <span class="fas fa-star checked"></span>
+                                  <span class="fas fa-star checked"></span>
+                                  <span class="fas fa-star checked"></span>
+                                  <span class="far fa-star"></span>
+                                  <span class="far fa-star"></span>
+                                  35 Ratings
+                              </div>
+                                  <h3 class="card-title text-primary">47/B DHA</h3>
+                                  <p class="card-text font-weight-bold">4 Bedroom 3 washroom</p>
+                              <div class="labelandbutton">
+                                  <h6>Fully decorated and well Design</h6>
+                                  <h6>Single family House</h6>
+                                  <h4>$2000</h4>
+                                  <a href="#" class="btn btn-primary">BOOK NOW</a>
+                                  <br><br>
+                                  <a href="tel:+903057719490">+923057719490</a>
+                              </div>          
+                          </div>
+                      </div>
+                    </div>
+                    <!------------------------------------1 card end-------------------------------------------->
+                    <!------------------------------------2 card start----------------------------------------->
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                      <div class="card shadow" style="width:100%" data-aos="fade-left">
+                        <div class="card-img-top">
+                              <div id="carddemo" class="carousel slide" data-ride="carousel">
+                              <!-- The slideshow -->
+                                  <div class="carousel-inner">
+                                      <div class="carousel-item active">
+                                          <img src="./rent1.jpg" alt="Los Angeles">
+                                      </div>
+                                      <div class="carousel-item">
+                                          <img src="./rent2.jpg" alt="Chicago">
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <!--card overlay text-->
+                          <div class="card-img-overlay">
+                            <span class="left"><a href="#" class="btn btn-primary btn-sm">FEATURED</a></span>
+                            <div class="right"><a href="#" class="btn btn-dark btn-sm">FOR RENT</a></div>
+                            
+                          </div>
+                          <div class="card-body">
+                              <div class="rating">
+                                  <span class="fas fa-star checked"></span>
+                                  <span class="fas fa-star checked"></span>
+                                  <span class="fas fa-star checked"></span>
+                                  <span class="fas fa-star checked"></span>
+                                  <span class="far fa-star"></span>
+                                  65 Ratings
+                              </div>
+                                  <h3 class="card-title text-primary">Bahira town</h3>
+                                  <p class="card-text font-weight-bold">7 Bedroom 3 washroom</p>
+                              <div class="labelandbutton">
+                                  <h6>Fully decorated and well Design</h6>
+                                  <h6>Single family House</h6>
+                                  <h4>$3000</h4>
+                                  <a href="#" class="btn btn-primary">BOOK NOW</a>
+                                  <br><br>
+                                  <a href="tel:+903057719490">+923057719490</a>
+                              </div>          
+                          </div>
+                      </div>
+                    </div>
+                    <!------------------------------------2 card end-------------------------------------------->
+                    <!------------------------------------3 card start----------------------------------------->
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                      <div class="card shadow" style="width:100%" data-aos="fade-left">
+                        <div class="card-img-top">
+                              <div id="carddemo" class="carousel slide" data-ride="carousel">
+                              <!-- The slideshow -->
+                                  <div class="carousel-inner">
+                                      <div class="carousel-item active">
+                                          <img src="./rent1.jpg" alt="Los Angeles">
+                                      </div>
+                                      <div class="carousel-item">
+                                          <img src="./rent2.jpg" alt="Chicago">
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <!--card overlay text-->
+                          <div class="card-img-overlay">
+                            <span class="left"><a href="#" class="btn btn-primary btn-sm">FEATURED</a></span>
+                            <div class="right"><a href="#" class="btn btn-dark btn-sm">FOR RENT</a></div>
+                            
+                          </div>
+                          <div class="card-body">
+                              <div class="rating">
+                                  <span class="fas fa-star checked"></span>
+                                  <span class="fas fa-star checked"></span>
+                                  <span class="far fa-star"></span>
+                                  <span class="far fa-star"></span>
+                                  <span class="far fa-star"></span>
+                                  99 Ratings
+                              </div>
+                                  <h3 class="card-title text-primary">Askari Phase 1</h3>
+                                  <p class="card-text font-weight-bold">5 Bedroom 3 washroom</p>
+                              <div class="labelandbutton">
+                                  <h6>Fully decorated and well Design</h6>
+                                  <h6>Single family House</h6>
+                                  <h4>$900</h4>
+                                  <a href="#" class="btn btn-primary">BOOK NOW</a>
+                                  <br><br>
+                                  <a href="tel:+903057719490">+923057719490</a>
+                              </div>          
+                          </div>
+                      </div>
+                    </div>
+                    <!------------------------------------3 card end-------------------------------------------->
+      </div>  
+  </div>
+</div>    
+<!-------------------------------------------latest for sale end-------------------------------------------------->
+    
+<!-------------------------------------------our locations start-------------------------------------------------->
+<div class="ourlocation" id="blogs">
+  <div class="container shadow">
+    <div class="row ">
+      <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center">
+        <h1>Our Locations</h1>
+        <p>Book space in amazing Location in across the World</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
+        <div class="smallimage"  
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+        >
+          <img src="./small.jpg" class="img-responsive">
+          <div class="carousel-caption">
+            <h3>Apartment</h3>
+            <p>30 Properties</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-8">
+        <div class="largeimage"
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+        >
+          <img src="./large.jpg" class="img-responsive">
+          <div class="carousel-caption">
+            <h3>Loft</h3>
+            <p>1 Properties</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row pt-4">
+      <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-8">
+        <div class="largeimage"
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+        >
+          <img src="./large.jpg" class="img-responsive">
+          <div class="carousel-caption">
+            <h3>Single family House</h3>
+            <p>20 Properties</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
+        <div class="smallimage"
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+        >
+          <img src="./small.jpg" class="img-responsive">
+          <div class="carousel-caption">
+            <h3>Villa</h3>
+            <p>15 Properties</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-------------------------------------------our locations end----------------------------------------------------->
+<!-------------------------------------------best properties start-------------------------------------------------->
+<div class="bestpropertie" id="bestpropertyvalues">
+  <div class="container shadow">
+    <div class="row ">
+      <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center">
+        <h1>Best Property value</h1>
+        <p>Create Your Real Estate Website or marketplace</p>
+      </div>
+    </div>
+    <div class="row">
+      <!-----------------------------1 card start-------------------------------------------------->
+      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+        <div class="card shadow" style="width:100%" data-aos="fade-down-right">
+          <div class="card-img-top">
+                <div id="carddemo" class="carousel slide" data-ride="carousel">
+                <!-- The slideshow -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./rent1.jpg">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./rent2.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--card overlay text-->
+            <div class="card-img-overlay">
+              <span class="left"><a href="#" class="btn btn-primary btn-sm">FEATURED</a></span>
+              <div class="right"><a href="#" class="btn btn-dark btn-sm">FOR RENT</a></div>
+              
+            </div>
+            <div class="card-body">
+                <div class="rating">
+                    <span class="fas fa-star checked"></span>
+                    <span class="fas fa-star checked"></span>
+                    <span class="fas fa-star checked"></span>
+                    <span class="far fa-star"></span>
+                    <span class="far fa-star"></span>
+                    35 Ratings
+                </div>
+                    <h3 class="card-title text-primary">47/B DHA</h3>
+                    <p class="card-text font-weight-bold">4 Bedroom 3 washroom</p>
+                <div class="labelandbutton">
+                    <h6>Fully decorated and well Design</h6>
+                    <h6>Single family House</h6>
+                    <h4>$2000</h4>
+                    <a href="#" class="btn btn-primary">BOOK NOW</a>
+                    <br><br>
+                    <a href="tel:+903057719490">+923057719490</a>
+                </div>          
+            </div>
+        </div>
+      </div>
+      <!------------------------------------1 card end-------------------------------------------->
+      <!------------------------------------2 card start----------------------------------------->
+      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+        <div class="card shadow" style="width:100%"  data-aos="fade-down-left">
+          <div class="card-img-top">
+                <div id="carddemo" class="carousel slide" data-ride="carousel">
+                <!-- The slideshow -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./rent1.jpg" alt="Los Angeles">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./rent2.jpg" alt="Chicago">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--card overlay text-->
+            <div class="card-img-overlay">
+              <span class="left"><a href="#" class="btn btn-primary btn-sm">FEATURED</a></span>
+              <div class="right"><a href="#" class="btn btn-dark btn-sm">FOR RENT</a></div>
+              
+            </div>
+            <div class="card-body">
+                <div class="rating">
+                    <span class="fas fa-star checked"></span>
+                    <span class="fas fa-star checked"></span>
+                    <span class="fas fa-star checked"></span>
+                    <span class="fas fa-star checked"></span>
+                    <span class="far fa-star"></span>
+                    65 Ratings
+                </div>
+                    <h3 class="card-title text-primary">Bahira town</h3>
+                    <p class="card-text font-weight-bold">7 Bedroom 3 washroom</p>
+                <div class="labelandbutton">
+                    <h6>Fully decorated and well Design</h6>
+                    <h6>Single family House</h6>
+                    <h4>$3000</h4>
+                    <a href="#" class="btn btn-primary">BOOK NOW</a>
+                    <br><br>
+                    <a href="tel:+903057719490">+923057719490</a>
+                </div>          
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-------------------------------------------best properties end-------------------------------------------------->
+
+<!-------------------------------------------agents start-------------------------------------------------->
+<div class="agents" id="aboutus">
+  <div class="container">
+    <div class="row ">
+      <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center">
+        <h1>Agents</h1>
+        <p>here could be a nice sub title</p>
+      </div>
+    </div>
+    <div class="row">
+      <!-----------------------------1 card start-------------------------------------------------->
+      <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+        <div class="card shadow" style="width:100%,"
+        data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom">
+          <div class="card-img-top">
+                <img src="./agent1.jpg" class="rounded-circle">
+            </div>
+           
+            <div class="card-body">
+                <span>Houzez</span>
+                <h3 class="card-title text-primary">CEO</h3>
+                <p class="card-text font-weight-bold">Mr CEO</p>
+                <a href="#" class="btn text-primary">SEE PROFILE</a>
+            </div>
+        </div>
+      </div>
+      <!------------------------------------1 card end-------------------------------------------->
+      <!-----------------------------2 card start-------------------------------------------------->
+      <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+        <div class="card shadow" style="width:100%"
+        data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom">
+          <div class="card-img-top">
+                <img src="./agent2.jpg" class="rounded-circle">
+            </div>
+           
+            <div class="card-body">
+                <span>Houzez</span>
+                <h3 class="card-title text-primary">CO-FOUNDER</h3>
+                <p class="card-text font-weight-bold">Mr CO-FOUNDER</p>
+                <a href="#" class="text-primary">SEE PROFILE</a>
+            </div>
+        </div>
+      </div>
+      <!------------------------------------2 card end-------------------------------------------->
+      <!-----------------------------3 card start-------------------------------------------------->
+      <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+        <div class="card shadow" style="width:100%"
+        data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom">
+          <div class="card-img-top">
+                <img src="./agent3.jpg" class="rounded-circle">
+            </div>
+           
+            <div class="card-body">
+                <span>Houzez</span>
+                <h3 class="card-title text-primary">MANAGER</h3>
+                <p class="card-text font-weight-bold">Mrs MANAGER</p>
+                <a href="#" class="text-primary">SEE PROFILE</a>
+            </div>
+        </div>
+      </div>
+      <!------------------------------------3 card end-------------------------------------------->
+      <!-----------------------------4 card start-------------------------------------------------->
+      <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+        <div class="card shadow" style="width:100%"
+        data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom">
+          <div class="card-img-top">
+                <img src="./agent4.jpg" class="rounded-circle">
+            </div>
+           
+            <div class="card-body">
+                <span>Houzez</span>
+                <h3 class="card-title text-primary">DIRECTOR</h3>
+                <p class="card-text font-weight-bold">Mr DIRECTOR</p>
+                <a href="#" class="text-primary">SEE PROFILE</a>
+            </div>
+        </div>
+      </div>
+      <!------------------------------------4 card end-------------------------------------------->
+    </div>
+  </div>  
+</div>
+<!-------------------------------------------agents end----------------------------------------------------->
+<!-------------------------------------------- Footer start------------------------------------------------>
+<footer class="footer bg-dark text-light">
+  <div class="container">
+    <div class="row">
+
+<!-- ---------------------------------------about start----------------------------------------- -->
+
+      <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 mb-4">
+
+        <!-- Content -->
+        <h6 class="text-uppercase font-weight-bold">About Site</h6>
+        <hr class="d-inline-block">
+        <p>Houzez is the real-state Company that sale the properties and other services like that on rent etc</p>
+
+      </div>
+      <!-- ---------------------------------------about end----------------------------------------- -->
+      <!-- -----------------------------------------contact start -------------------------------------->
+      <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">Contact</h6>
+        <hr class="d-inline-block">
+        <p>
+          <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+        <p>
+          <i class="fas fa-envelope mr-3"></i><a href="mailto:info@houzez.com" class="text-light"> info@houzez.com</a></p>
+        <p>
+          <i class="fas fa-phone mr-3 "></i><a href="tel:+923057719490" class="text-light">+903057719490</a></p>
+        </div>
+<!-- -----------------------------------------contact  end -------------------------------------->
+<!------------------------------------------newsletter start------------------------------------>
+      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+        <label ><h5>Newsletter Subscribe</h5></label>
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" placeholder="Email" id="demo" name="email">
+          <div class="input-group-append">
+            <button type="button" class="btn btn-primary">Subscribe</button>
+          </div>
+        </div>
+        <p style="display: block;">Houzez is the real-state Company that sale the properties and other services like that on rent etc</p>
+        <div class="socialmedia">
+          <ul>
+              <a href="#"><i class="fab fa-facebook-f text-light"></i></a>
+              <a href="#"><i class="fab fa-instagram text-light"></i></a>
+              <a href="#"><i class="fab fa-twitter text-light"></i></a>
+              <a href="#"><i class="fab fa-youtube text-light"></i></a>
+              <a href="#"><i class="fab fa-whatsapp text-light"></i></a>
+          </ul>
+        </div>
+        
+
+      </div>
+    </div>
+  </div>
+
+        <!--------------------------------- Copyright start-------------------------------------- -->
+      <div class="copyright">  
+        <div class="row" style="width: 100%;">
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4 py-1">
+            <p>Houzez-All right are reserved</p>
+          </div>      
+          <div class="col-xl-4 col-lg-4 colmd-4 col-sm-4 col-4">
+            <button type="button" class="btn text-light">Privacy</button>
+            <button type="button" class="btn text-light">term & Conditions</button>
+            <button type="button" class="btn text-light">Contact</button>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
+            <ul>
+              <a href="#"><i class="fab fa-facebook-f text-light"></i></a>
+              <a href="#"><i class="fab fa-instagram text-light"></i></a>
+              <a href="#"><i class="fab fa-twitter text-light"></i></a>
+              <a href="#"><i class="fab fa-youtube text-light"></i></a>
+              <a href="#"><i class="fab fa-whatsapp text-light"></i></a>
+          </ul>
+          </div>      
+          
+        </div>  
+      </div>  
+        <!------------------------------------------- Copyright end--------------------- -->
+
+</footer>
+<!-- -----------------------------------------------Footer end------------------------ -->
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+      AOS.init();
+    </script>
+   
+
+  </body>
+</html>
